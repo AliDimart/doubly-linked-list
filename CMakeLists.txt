@@ -8,6 +8,6 @@ set(CMAKE_CXX_EXTENSIONS OFF) #запрещает использовать не�
 
 add_executable(DoublyLinkedList src/main.cpp)
 
-target_include_directions(DoublyLinkedList PRIVATE
+target_include_directories(DoublyLinkedList PRIVATE
 	${CMAKE_CURRENT_SOURCE_DIR}/include
 )
